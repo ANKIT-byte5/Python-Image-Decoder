@@ -2,7 +2,9 @@
 Convert any image encoded file and directly convert it to decoded png or any other file type you want 
 
 # Installation
-Install the required libraries: To run the code, you will need to have the zlib and PIL library installed on your system. You can install them using pip by running the command pip install zlib pillow in your terminal.
+Install the required libraries: To run the code, you will need to have the zlib and PIL library installed on your system. You can install them using pip by running the command in your terminal.
+
+    pip install zlib pillow 
 
 # Usage
 Create a new Python file: Open your text editor and create a new file with a .py extension (e.g. "decode_images.py").
