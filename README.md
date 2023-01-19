@@ -18,6 +18,8 @@ Update the file path: In the code, you will see a line of code that opens the im
 
 Run the Python file: Now you can run the Python file by using the command python decode_images.py in your terminal.
 
+    python decode_images.py
+ 
 Check the output: The code will execute and save the decompressed and decoded images in the same directory where the python file is located, with the name decompressed_image.{image format} . You can check the output by opening the saved images in an image viewer.
 
 # Help
