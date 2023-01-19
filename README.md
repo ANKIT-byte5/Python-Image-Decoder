@@ -13,6 +13,9 @@ Copy and paste the code: and paste it into the new Python file.
 
 Update the file path: In the code, you will see a line of code that opens the imagecache.0 file. You need to update that line with the path of your image file on your computer.
 
+    # Open the encoded file in binary mode
+    with open("imagecache.0", "rb") as f:
+
 Run the Python file: Now you can run the Python file by using the command python decode_images.py in your terminal.
 
 Check the output: The code will execute and save the decompressed and decoded images in the same directory where the python file is located, with the name decompressed_image.{image format} . You can check the output by opening the saved images in an image viewer.
